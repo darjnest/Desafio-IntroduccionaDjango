@@ -28,25 +28,12 @@ Este proyecto consiste en una aplicación web básica desarrollada con Django, q
 - **HTML**: Para estructurar las páginas web.
 - **Bootstrap**: Framework CSS utilizado para estilizar las páginas y hacerlas responsivas.
 
-## Estructura de Directorios
-
-├── desafioGiado/
-│ ├── **init**.py
-│ ├── settings.py
-│ ├── urls.py
-│ ├── views.py
-├── templates/
-│ ├── home.html
-│ ├── about.html
-│ ├── contact.html
-├── manage.py
-└── requirements.txt
 Instalación y Configuración
 
 1. Clonar el repositorio
    git clone <URL_DEL_REPOSITORIO>
    cd <NOMBRE_DEL_PROYECTO>
-1. Crear y activar el entorno virtual
+2. Crear y activar el entorno virtual
 
 python -m venv venv
 source venv/bin/activate # En Windows: venv\Scripts\activate
