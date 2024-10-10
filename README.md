@@ -30,47 +30,39 @@ Este proyecto consiste en una aplicación web básica desarrollada con Django, q
 
 ## Estructura de Directorios
 
-```bash
 ├── desafioGiado/
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── views.py
+│ ├── **init**.py
+│ ├── settings.py
+│ ├── urls.py
+│ ├── views.py
 ├── templates/
-│   ├── home.html
-│   ├── about.html
-│   ├── contact.html
+│ ├── home.html
+│ ├── about.html
+│ ├── contact.html
 ├── manage.py
 └── requirements.txt
 Instalación y Configuración
 
 1. Clonar el repositorio
-bash
-Copiar código
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_PROYECTO>
-2. Crear y activar el entorno virtual
-bash
-Copiar código
+   git clone <URL_DEL_REPOSITORIO>
+   cd <NOMBRE_DEL_PROYECTO>
+1. Crear y activar el entorno virtual
+
 python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-3. Instalar las dependencias
-Ejecuta el siguiente comando para instalar las dependencias desde el archivo requirements.txt:
+source venv/bin/activate # En Windows: venv\Scripts\activate
 
-bash
-Copiar código
+1. Instalar las dependencias
+   Ejecuta el siguiente comando para instalar las dependencias desde el archivo requirements.txt:
+
 pip install -r requirements.txt
-4. Migraciones de la base de datos
-Realiza las migraciones iniciales:
 
-bash
-Copiar código
+1. Migraciones de la base de datos
+   Realiza las migraciones iniciales:
+
 python manage.py migrate
-5. Ejecutar la aplicación
-Inicia el servidor de desarrollo de Django:
 
-bash
-Copiar código
+1. Ejecutar la aplicación
+   Inicia el servidor de desarrollo de Django:
+
 python manage.py runserver
 Accede a la aplicación desde tu navegador en http://127.0.0.1:8000.
-```
